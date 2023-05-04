@@ -1,0 +1,224 @@
+.mainContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 80px;
+    background-color: #1e293a;
+}
+
+.navbars {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbars .logo {
+    font-weight: 600;
+    color: white;
+}
+
+.settings {
+    color: white;
+    display: flex;
+    position: absolute;
+    right: 30px;
+    height: 80px;
+    align-items: center;
+}
+
+.settings .back {
+    font-size: 20px;
+}
+
+.preview .btn {
+    background-color: #ffb20d;
+}
+
+.setting .fa-gear {
+    font-size: 25px;
+}
+
+.mrg-left-18 {
+    margin-left: 18px;
+}
+
+.sidebar {
+    background-color: #0f172a;
+    width: 23%;
+    height: 100%;
+}
+
+.side-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.side-menu ul {
+    padding: 0;
+    margin-top: 12px;
+}
+
+.side-menu ul li {
+    list-style: none;
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.mrg-right-15 {
+    margin-right: 15px !important;
+}
+
+.main-section {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.mainSection {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.mainSection .header-title {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-title button {
+    background: #079669;
+    color: white;
+}
+
+.curriculum .title {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.curriculum {
+    display: flex;
+    align-items: center;
+}
+
+.checkIssues {
+    background-color: #63469b;
+    color: white;
+}
+
+.addBtn {
+    background-color: #ffb20d;
+}
+
+.position-right {
+    position: absolute;
+    right: 30px;
+}
+
+.expansionSection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expansionSection .collapse-tab {
+    width: 95%;
+}
+
+.expansionSection .collapse-tab button {
+    width: 100%;
+    height: 70px;
+    background: white;
+    border: 1.5px solid #dee5ec;
+    color: black;
+}
+
+.align-left {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.collapse-tab {
+    margin-top: 10px;
+}
+
+.mrg-right-10 {
+    margin-right: 10px;
+}
+
+.mrg-left-10 {
+    margin-left: 10px;
+}
+
+.middle {
+    margin-left: 7rem;
+    display: flex;
+}
+
+.text-align-right {
+    display: flex;
+    position: absolute;
+    right: 3px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.mrg-right-3 {
+    margin-right: 3px;
+}
+
+.dflex-container {
+    display: flex;
+    align-items: center;
+}
+
+.collapse-subsections {
+    width: 100%;
+    height: 70px;
+    background: white;
+    border: 1.5px solid #dee5ec;
+    color: black;
+}
+
+.text-align-right p {
+    margin: 0;
+    padding: 0;
+}
+
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background {
+    background: #ffb20d;
+}
+
+.example-section {
+    margin: 12px 0;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.mrg-right-3rem {
+    margin-right: 3rem;
+}
+
+.mrg-right-7 {
+    margin-right: 7px;
+}
